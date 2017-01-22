@@ -4,7 +4,8 @@
   "description": "Week 14 Activity Handlebars",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/EternalVigil/week-14-handlebars/issues"
   },
-  "homepage": "https://github.com/EternalVigil/week-14-handlebars#readme"
+  "homepage": "https://github.com/EternalVigil/week-14-handlebars#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "orm": "^3.2.3"
+  },
+  "devDependencies": {}
 }
